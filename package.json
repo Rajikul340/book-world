@@ -9,10 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^2.51.5",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
+    "postcss": "^8.4.21",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "swiper": "^9.2.0"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Rajikul340/book-world.git",
+  "author": "FFajibraj779r <mdrajikuli757@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
   }
 }
