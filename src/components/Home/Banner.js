@@ -6,6 +6,10 @@ import "swiper/css/navigation";
 import { EffectFade, Autoplay, Pagination, Navigation } from "swiper";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import banner1 from '../../image/photo-1589998059171-988d887df646.jpeg'
+import banner2 from '../../image/photo-1508169351866-777fc0047ac5.avif'
+import banner3 from '../../image/photo-1615791287388-6f1bd87ace4e.avif'
 
 const Banner = () => {
   return (
@@ -28,8 +32,10 @@ const Banner = () => {
          style={{width:"100%", height:"70px"}}
         >
           <div className="img-style">
-            <img
-              src="https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80"
+            <Image 
+            width={100}
+            height={400}
+              src={banner1}
               alt=""
               className="w-full "
             />
@@ -60,8 +66,10 @@ const Banner = () => {
 
         <SwiperSlide>
           <div className=" img-style ">
-            <img
-              src="https://images.unsplash.com/photo-1508169351866-777fc0047ac5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            <Image 
+            width={100}
+            height={400}
+              src={banner2}
               alt=""
               className="w-full "
             />
@@ -84,8 +92,11 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-style">
-            <img
-              src="https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80"
+            <Image 
+            width={100}
+            height={400}
+              src={banner1}
+
               alt=""
               className="w-full"
             />
@@ -115,8 +126,10 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="img-style">
-            <img
-              src="https://images.unsplash.com/photo-1615791287388-6f1bd87ace4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"
+            <Image 
+            width={100}
+            height={400}
+              src={banner3}
               alt=""
               className="w-full"
             />

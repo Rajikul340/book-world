@@ -1,14 +1,20 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import TeamCard from "./TeamCard";
+import user1 from '../../image/user1.jpg'
+import user2 from '../../image/user2.jpg'
+import user3 from '../../image/user3.jpg'
+import user4 from '../../image/user4.jpg'
 
-function OurTeam() {
+
+const  OurTeam = ()=> {
+  
   const cardData = [
     {
       id: 1,
       name: "Aurea Rica",
       title: "CEO, Book World",
-      image:"https://i.ibb.co/XYZFjBk/user1.jpg",
+      image: user1,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, pariatur.",
       icon:      "https://www.linkedin.com/",
@@ -20,8 +26,7 @@ function OurTeam() {
       id: 2,
       name: "Maggie ward",
       title: "Full Stack developer",
-      image:
-      "https://i.ibb.co/yh7q0JW/user4.jpg",
+      image: user2,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, pariatur.",
       icon:    "https://www.linkedin.com/",
@@ -34,8 +39,7 @@ function OurTeam() {
       id: 3,
       name: "Reiven Eric Miranda",
       title: "Software Engineer at Book world",
-      image:
-      "https://i.ibb.co/4fq44JC/user3.jpg",
+      image: user3,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, pariatur.",
       icon:  "https://www.linkedin.com/",
@@ -48,8 +52,7 @@ function OurTeam() {
       id: 4,
       name: "Naina Soni",
       title: "It recruiter at book world ",
-      image:
-      "https://i.ibb.co/yd3bx8Q/user2.jpg",
+      image:user4,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, pariatur.",
       icon:   "https://www.linkedin.com/",

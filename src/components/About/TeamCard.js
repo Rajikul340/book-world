@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 import {
     AiFillTwitterCircle,
     AiOutlineInstagram,
@@ -13,7 +14,7 @@ const TeamCard = ({ card }) => {
         <div className={`card text-white w-80 xl:w-96 md:card-side shadow-xl ${bgClass}`}>
             <div className="w-full">
                 <figure className="px-10 pt-10">
-                    <img src={image} alt="Shoes" className="rounded-full w-40 h-40" />
+                    <Image src={image} height={20} width={20} alt="Shoes" className="rounded-full w-40 h-40" />
                 </figure>
                 <div className="card-body items-center text-center pt-0">
                     <h2 className="card-title mt-5">{name}</h2>

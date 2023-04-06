@@ -1,5 +1,5 @@
+import Image from "next/image";
 
-import React from "react";
 
 const ItemDetails = ({ product, handleDetails }) => {
   console.log("product", product);
@@ -9,7 +9,7 @@ const ItemDetails = ({ product, handleDetails }) => {
    
       <div className="card w-96  bg-base-100 shadow-xl">
         <figure>
-          <img src={imageLinks?.smallThumbnail} className="w-80" alt="Shoes" />
+          <Image src={imageLinks?.smallThumbnail} className="w-80" alt="Shoes" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{title}</h2>

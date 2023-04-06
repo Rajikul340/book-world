@@ -2,6 +2,13 @@ import Link from "next/link";
 import styles from "../../styles/feature.module.css";
 import { FaStar } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import user1 from '../../image/user1.jpg'
+import user2 from '../../image/user2.jpg'
+import user3 from '../../image/user3.jpg'
+import user4 from '../../image/user4.jpg'
+
+
 
 const Reviews = () => {
   return (
@@ -22,8 +29,10 @@ const Reviews = () => {
           <div className="card shadow-2xl border p-2 ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/XYZFjBk/user1.jpg"
+                <Image
+                width={10}
+                height={10}
+                  src={user1}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -66,8 +75,10 @@ const Reviews = () => {
           <div className="card border p-2  shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/yh7q0JW/user4.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user2}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -110,8 +121,10 @@ const Reviews = () => {
           <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/4fq44JC/user3.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user3}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -167,8 +180,10 @@ const Reviews = () => {
           <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/yd3bx8Q/user2.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user4}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -211,8 +226,10 @@ const Reviews = () => {
           <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/4fq44JC/user3.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user1}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -255,8 +272,10 @@ const Reviews = () => {
           <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/yh7q0JW/user4.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user2}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -312,8 +331,10 @@ const Reviews = () => {
           <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/yd3bx8Q/user2.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user3}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -356,8 +377,10 @@ const Reviews = () => {
           <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/4fq44JC/user3.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user4}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -400,8 +423,10 @@ const Reviews = () => {
           <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/yh7q0JW/user4.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user1}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -457,8 +482,10 @@ const Reviews = () => {
           <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/XYZFjBk/user1.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user2}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -501,8 +528,10 @@ const Reviews = () => {
           <div className="card border p-2  shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/4fq44JC/user3.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user3}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -545,8 +574,10 @@ const Reviews = () => {
           <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
-                <img
-                  src="https://i.ibb.co/yh7q0JW/user4.jpg"
+                <Image
+                width={10}
+                height={10}
+                src={user4}
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
