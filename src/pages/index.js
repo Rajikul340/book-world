@@ -1,3 +1,4 @@
+import Footer from "@/components/Home/Footer";
 import HomePage from "@/components/Home/Home";
 import NavBar from "@/components/NavBar/NavBar";
 import Head from "next/head";
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
        <NavBar/>
        <HomePage/>
+       <Footer/>
 
     </>
   );

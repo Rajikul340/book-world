@@ -7,7 +7,7 @@ body{
 }
 .text-style{
  position: absolute;
-  top: 300px;
+  top: 200px;
   left: 140px;
   color: #fff;
 }
@@ -15,3 +15,10 @@ body{
 position: relative;
 
 }
+.swiper-slide img {
+    width: 100%;
+    height: 700px;
+  }
+  
+  
+  

@@ -1,12 +1,15 @@
+import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Home/Footer";
 import NavBar from "@/components/NavBar/NavBar";
 
 const index = () => {
-    return (
-        <div>
-            <NavBar/>
-            <h1>this is product page </h1>
-        </div>
-    );
+  return (
+    <div>
+      <NavBar />
+      <p>product page </p>
+      <Footer />
+    </div>
+  );
 };
 
 export default index;

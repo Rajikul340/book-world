@@ -1,11 +1,14 @@
+import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Home/Footer";
 import NavBar from "@/components/NavBar/NavBar";
 
 
 const index = () => {
     return (
         <div>
-            <NavBar></NavBar>
-            <h1>this is contact page </h1>
+            <NavBar/>
+            <Contact/>
+            <Footer/>
         </div>
     );
 };
