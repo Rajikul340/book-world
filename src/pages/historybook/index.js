@@ -3,7 +3,7 @@ import { addToDb, deleteShoppingCart, getStoredCart } from "@/components/Product
 import HistoryBookDetails from "@/components/Product/HistoryBook";
 import { useQuery } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
-
+import { toast } from "react-hot-toast";
 const HistoryBook = () => {
 
 
@@ -64,6 +64,7 @@ const HistoryBook = () => {
 
     setCart(newCart);
     addToDb(selectedProduct.id);
+    toast.success("book added to book store")
   };
 
   if (isLoading) return <p>Loading..</p>;
