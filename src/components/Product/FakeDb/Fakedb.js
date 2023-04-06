@@ -3,11 +3,15 @@
 const addToDb = (id) => {
   let shoppingCart = {};
 
-  //get the shopping cart from local storage
-  const storedCart = localStorage?.getItem("shopping-cart");
-  if (storedCart) {
-    shoppingCart = JSON.parse(storedCart);
+  if (typeof window !== 'undefined') {
+    //get the shopping cart from local storage
+    const storedCart = localStorage?.getItem("shopping-cart");
+    if (storedCart) {
+      shoppingCart = JSON.parse(storedCart);
+    }
+  
   }
+
 
   // add quantity
   const quantity = shoppingCart[id];
@@ -17,33 +21,45 @@ const addToDb = (id) => {
   } else {
     shoppingCart[id] = 1;
   }
-  localStorage?.setItem("shopping-cart", JSON.stringify(shoppingCart));
+  if (typeof window !== 'undefined') {
+    localStorage?.setItem("shopping-cart", JSON.stringify(shoppingCart));
+  }
 };
 
 const getStoredCart = () => {
   let shoppingCart = {};
 
   //get the shopping cart from local storage
-  const storedCart=localStorage?.getItem("shopping-cart");
-  if (storedCart) {
-    shoppingCart = JSON.parse(storedCart);
+  if (typeof window !== 'undefined') {
+    const storedCart=localStorage?.getItem("shopping-cart");
+    if (storedCart) {
+      shoppingCart = JSON.parse(storedCart);
+    }
+    return shoppingCart;
+
   }
-  return shoppingCart;
+
 };
 
 const removeFromDb = (id) => {
-  const storedCart = localStorage?.getItem("shopping-cart");
-  if (storedCart) {
-    const shoppingCart = JSON.parse(storedCart);
-    if (id in shoppingCart) {
-      delete shoppingCart[id];
-      localStorage?.setItem("shopping-cart", JSON.stringify(shoppingCart));
+  if (typeof window !== 'undefined') {
+    const storedCart = localStorage?.getItem("shopping-cart");
+    if (storedCart) {
+      const shoppingCart = JSON.parse(storedCart);
+      if (id in shoppingCart) {
+        delete shoppingCart[id];
+        localStorage?.setItem("shopping-cart", JSON.stringify(shoppingCart));
+      }
     }
   }
+
 };
 
 const deleteShoppingCart = () => {
-  localStorage?.removeItem("shopping-cart");
+  if (typeof window !== 'undefined') {
+    localStorage?.removeItem("shopping-cart");
+    
+  }
 };
 
 export { addToDb, getStoredCart, removeFromDb, deleteShoppingCart };
