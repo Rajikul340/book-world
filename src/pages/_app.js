@@ -1,16 +1,18 @@
-
-import '@/styles/globals.css'
-import { Swiper, SwiperSlide } from 'swiper/react';
+import "@/styles/globals.css";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
-
+const queryClient = new QueryClient();
 
 export default function App({ Component, pageProps }) {
   return (
-    <Swiper>
-      <Component {...pageProps} />
-    </Swiper>
-  )
+    <QueryClientProvider client={queryClient}>
+      <Swiper>
+        <Component {...pageProps} />
+      </Swiper>
+    </QueryClientProvider>
+  );
 }

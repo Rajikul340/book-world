@@ -5,21 +5,21 @@ import { motion } from "framer-motion";
 
 const Reviews = () => {
   return (
-    <div className="my-10">
+    <div className="my-16">
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="md:text-4xl my-5 font-bold font-serif text-center text-2xl"
+        className="md:text-4xl my-10 font-bold font-serif text-center text-2xl"
       >
         Customer Review
       </motion.h1>
-      <div className="carousel w-11/12 mx-auto">
+      <div className="carousel md:w-11/12 md:mx-auto">
         <div
           id="slide1"
-          className="carousel-item relative  grid grid-cols-3 w-full"
+          className="carousel-item relative md:w-full  md:grid md:grid-cols-3  gap-5"
         >
-          <div className="card shadow-2xl ">
+          <div className="card shadow-2xl border p-2 ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
@@ -63,16 +63,16 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-2xl ">
+          <div className="card border p-2  shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
-                src="https://i.ibb.co/yh7q0JW/user4.jpg"
+                  src="https://i.ibb.co/yh7q0JW/user4.jpg"
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
                 <figcaption className="mx-2 font-semebold font-serif">
-                 markene dyne 
+                  markene dyne
                 </figcaption>
               </figure>
               <ul className="flex my-2">
@@ -107,16 +107,16 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-2xl ">
+          <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
-             src="https://i.ibb.co/4fq44JC/user3.jpg"
+                  src="https://i.ibb.co/4fq44JC/user3.jpg"
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
                 <figcaption className="mx-2 font-semebold font-serif">
-                    larry portal
+                  larry portal
                 </figcaption>
               </figure>
               <ul className="flex my-2">
@@ -152,24 +152,28 @@ const Reviews = () => {
             </div>
           </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide4" className="btn btn-circle">❮</a> 
-      <a href="#slide2" className="btn btn-circle">❯</a>
+            <a href="#slide4" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide2" className="btn btn-circle">
+              ❯
+            </a>
           </div>
         </div>
         <div
           id="slide2"
-          className="carousel-item w-full relative grid grid-cols-3 "
+          className="carousel-item md:w-full relative md:grid md:grid-cols-3 gap-5"
         >
-          <div className="card shadow-2xl ">
+          <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
-                src="https://i.ibb.co/yd3bx8Q/user2.jpg"
+                  src="https://i.ibb.co/yd3bx8Q/user2.jpg"
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
                 <figcaption className="mx-2 font-semebold font-serif">
-                  kungke chune 
+                  kungke chune
                 </figcaption>
               </figure>
               <ul className="flex my-2">
@@ -204,11 +208,11 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-2xl ">
+          <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
-                 src="https://i.ibb.co/4fq44JC/user3.jpg"
+                  src="https://i.ibb.co/4fq44JC/user3.jpg"
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -248,11 +252,11 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-2xl ">
+          <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
-                src="https://i.ibb.co/yh7q0JW/user4.jpg"
+                  src="https://i.ibb.co/yh7q0JW/user4.jpg"
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
@@ -293,24 +297,28 @@ const Reviews = () => {
             </div>
           </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide1" className="btn btn-circle">❮</a> 
-      <a href="#slide3" className="btn btn-circle">❯</a>
+            <a href="#slide1" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide3" className="btn btn-circle">
+              ❯
+            </a>
           </div>
         </div>
         <div
           id="slide3"
-          className="carousel-item relative w-full grid grid-cols-3 md:mx-10"
+          className="carousel-item relative md:w-full md:grid md:grid-cols-3 gap-5"
         >
-          <div className="card shadow-2xl ">
+          <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
-                 src="https://i.ibb.co/yd3bx8Q/user2.jpg"
+                  src="https://i.ibb.co/yd3bx8Q/user2.jpg"
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
                 <figcaption className="mx-2 font-semebold font-serif">
-                   larry page
+                  larry page
                 </figcaption>
               </figure>
               <ul className="flex my-2">
@@ -345,16 +353,16 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-2xl ">
+          <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
-                 src="https://i.ibb.co/4fq44JC/user3.jpg"
+                  src="https://i.ibb.co/4fq44JC/user3.jpg"
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
                 <figcaption className="mx-2 font-semebold font-serif">
-                   brwon dwon
+                  brwon dwon
                 </figcaption>
               </figure>
               <ul className="flex my-2">
@@ -389,16 +397,16 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-2xl ">
+          <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
-                src="https://i.ibb.co/yh7q0JW/user4.jpg"
+                  src="https://i.ibb.co/yh7q0JW/user4.jpg"
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
                 <figcaption className="mx-2 font-semebold font-serif">
-                 kangchi kuien
+                  kangchi kuien
                 </figcaption>
               </figure>
               <ul className="flex my-2">
@@ -434,15 +442,19 @@ const Reviews = () => {
             </div>
           </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide2" className="btn btn-circle">❮</a> 
-      <a href="#slide4" className="btn btn-circle">❯</a>
+            <a href="#slide2" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide4" className="btn btn-circle">
+              ❯
+            </a>
           </div>
         </div>
         <div
           id="slide4"
-          className="carousel-item relative w-full grid grid-cols-3 md:mx-10"
+          className="carousel-item relative md:w-full md:grid md:grid-cols-3 md:gap-5 "
         >
-          <div className="card shadow-2xl ">
+          <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
@@ -486,16 +498,16 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-2xl ">
+          <div className="card border p-2  shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
-                src="https://i.ibb.co/4fq44JC/user3.jpg"
+                  src="https://i.ibb.co/4fq44JC/user3.jpg"
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
                 <figcaption className="mx-2 font-semebold font-serif">
-                 larry potal 
+                  larry potal
                 </figcaption>
               </figure>
               <ul className="flex my-2">
@@ -530,16 +542,16 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-2xl ">
+          <div className="card border p-2 shadow-2xl ">
             <div className=" mx-auto ml-6 ">
               <figure className="">
                 <img
-                src="https://i.ibb.co/yh7q0JW/user4.jpg"
+                  src="https://i.ibb.co/yh7q0JW/user4.jpg"
                   alt="Shoes"
                   className="w-16 h-16 rounded-full "
                 />
                 <figcaption className="mx-2 font-semebold font-serif">
-                  markeen dyne 
+                  markeen dyne
                 </figcaption>
               </figure>
               <ul className="flex my-2">
@@ -572,8 +584,12 @@ const Reviews = () => {
             </div>
           </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide3" className="btn btn-circle">❮</a> 
-      <a href="#slide1" className="btn btn-circle">❯</a>
+            <a href="#slide3" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide1" className="btn btn-circle">
+              ❯
+            </a>
           </div>
         </div>
       </div>

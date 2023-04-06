@@ -17,7 +17,7 @@ const Features = () => {
       <div className="hero ">
         <div className="hero-content flex-col lg:flex-row">
           <motion.img
-            className="w-1/2"
+            className="md:w-1/2"
             src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
             alt="image"
             animate={{

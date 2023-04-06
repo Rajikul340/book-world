@@ -34,18 +34,18 @@ const Banner = () => {
               className="w-full "
             />
           </div>
-          <div className="  text-style ">
+          <div className="md:text-style smTextStyle ">
             <motion.h1
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ rotate: 90 }}
-              className="md:text-5xl text-2xl font-bold font-serif   w-11/12"
+              className="md:text-5xl text-2xl font-bold font-serif  md:w-11/12"
             >
               Keep the Book . Grow Your Knowledge
             </motion.h1>
-            <p className="w-6/12 font-serif my-3 text-lg">
+            <p className="md:w-6/12 font-serif my-3 ">
               Increases knowledge and vocabulary: Reading is a great way to
               learn new things and expand your knowledge. It can also help
               improve your vocabulary, language skills, and communication
@@ -66,11 +66,11 @@ const Banner = () => {
               className="w-full "
             />
           </div>
-          <div className="  text-style ">
-            <h1 className="md:text-5xl text-2xl font-bold font-serif   w-11/12">
+          <div className="  md:text-style smTextStyle ">
+            <h1 className="md:text-5xl text-2xl font-bold font-serif  md:w-11/12">
               Keep the Book . Grow Your Knowledge
             </h1>
-            <p className="w-6/12 font-serif my-3 text-lg">
+            <p className="md:w-6/12 font-serif my-3 text-lg">
               Increases knowledge and vocabulary: Reading is a great way to
               learn new things and expand your knowledge. It can also help
               improve your vocabulary, language skills, and communication
@@ -90,18 +90,18 @@ const Banner = () => {
               className="w-full"
             />
           </div>
-          <div className="  text-style ">
+          <div className="  md:text-style smTextStyle ">
           <motion.h1
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ rotate: 90 }}
-              className="md:text-5xl text-2xl font-bold font-serif   w-11/12"
+              className="md:text-5xl text-2xl font-bold font-serif   md:w-11/12"
             >
               Keep the Book . Grow Your Knowledge
             </motion.h1>
-            <p className="w-6/12 font-serif my-3 text-lg">
+            <p className="md:w-6/12 font-serif my-3 text-lg">
               Increases knowledge and vocabulary: Reading is a great way to
               learn new things and expand your knowledge. It can also help
               improve your vocabulary, language skills, and communication
@@ -121,18 +121,18 @@ const Banner = () => {
               className="w-full"
             />
           </div>
-          <div className="  text-style ">
+          <div className=" md:text-style smTextStyle ">
           <motion.h1
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ rotate: 90 }}
-              className="md:text-5xl text-2xl font-bold font-serif   w-11/12"
+              className="md:text-5xl text-2xl font-bold font-serif   md:w-11/12"
             >
               Keep the Book . Grow Your Knowledge
             </motion.h1>
-            <p className="w-6/12 font-serif my-3 text-lg">
+            <p className="md:w-6/12 font-serif my-3 text-lg">
               Increases knowledge and vocabulary: Reading is a great way to
               learn new things and expand your knowledge. It can also help
               improve your vocabulary, language skills, and communication
