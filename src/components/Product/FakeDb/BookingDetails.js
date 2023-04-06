@@ -9,7 +9,7 @@ const ItemDetails = ({ product, handleDetails }) => {
    
       <div className="card w-96  bg-base-100 shadow-xl">
         <figure>
-          <Image src={imageLinks?.smallThumbnail} className="w-80" alt="Shoes" />
+          <Image unoptimized width={300} height={70} src={imageLinks?.smallThumbnail} className="w-80" alt="Shoes" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{title}</h2>

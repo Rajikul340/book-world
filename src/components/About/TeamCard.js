@@ -11,7 +11,7 @@ import { CiFacebook } from "react-icons/ci";
 const TeamCard = ({ card }) => {
     const { name, title, image, description, icon, linkedin, bgClass } = card;
     return (
-        <div className={`card text-white w-80 xl:w-96 md:card-side shadow-xl ${bgClass}`}>
+        <div className={`card  w-80 xl:w-96 md:card-side shadow-xl ${bgClass}`}>
             <div className="w-full">
                 <figure className="px-10 pt-10">
                     <Image src={image} height={20} width={20} alt="Shoes" className="rounded-full w-40 h-40" />

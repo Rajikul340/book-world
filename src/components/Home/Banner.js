@@ -40,18 +40,18 @@ const Banner = () => {
               className="w-full "
             />
           </div>
-          <div className="md:text-style smTextStyle ">
+          <div className=" text-style md:top-60  text-white md:w-10/12 md:left-44 ">
             <motion.h1
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ rotate: 90 }}
-              className="md:text-5xl text-2xl font-bold font-serif  md:w-11/12"
+              className="md:text-5xl text-2xl font-bold font-serif  "
             >
               Keep the Book . Grow Your Knowledge
             </motion.h1>
-            <p className="md:w-6/12 font-serif my-3 ">
+            <p className="md:w-8/12 font-serif my-3 md:text-lg ">
               Increases knowledge and vocabulary: Reading is a great way to
               learn new things and expand your knowledge. It can also help
               improve your vocabulary, language skills, and communication
@@ -74,8 +74,8 @@ const Banner = () => {
               className="w-full "
             />
           </div>
-          <div className="  md:text-style smTextStyle ">
-            <h1 className="md:text-5xl text-2xl font-bold font-serif  md:w-11/12">
+          <div className=" text-style md:top-60  text-white md:w-10/12 md:left-44 ">
+            <h1 className="md:text-5xl text-2xl font-bold font-serif ">
               Keep the Book . Grow Your Knowledge
             </h1>
             <p className="md:w-6/12 font-serif my-3 text-lg">
@@ -85,7 +85,7 @@ const Banner = () => {
               abilities.F
             </p>
             <Link href="/product">
-              {" "}
+             
               <button className="btn btn-primary">let`s start</button>
             </Link>
           </div>
@@ -101,14 +101,14 @@ const Banner = () => {
               className="w-full"
             />
           </div>
-          <div className="  md:text-style smTextStyle ">
+          <div className=" text-style md:top-60  text-white md:w-10/12 md:left-44 ">
           <motion.h1
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ rotate: 90 }}
-              className="md:text-5xl text-2xl font-bold font-serif   md:w-11/12"
+              className="md:text-5xl text-2xl font-bold font-serif "
             >
               Keep the Book . Grow Your Knowledge
             </motion.h1>
@@ -134,14 +134,14 @@ const Banner = () => {
               className="w-full"
             />
           </div>
-          <div className=" md:text-style smTextStyle ">
+          <div className=" text-style md:top-60  text-white md:w-10/12 md:left-44 ">
           <motion.h1
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5 }}
               whileHover={{ scale: 1.2 }}
               whileTap={{ rotate: 90 }}
-              className="md:text-5xl text-2xl font-bold font-serif   md:w-11/12"
+              className="md:text-5xl text-2xl font-bold font-serif   "
             >
               Keep the Book . Grow Your Knowledge
             </motion.h1>

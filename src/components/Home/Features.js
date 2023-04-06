@@ -35,7 +35,7 @@ const Features = () => {
             <h1 className="text-52xl font-bold"></h1>
 
             <motion.p 
-            className="py-6 text-lg font-semibold font-serif"
+            className="py-6 text-lg  font-serif"
             animate={{ opacity: 1 }} initial={{ opacity: 0 }}>
               {text.split("").map((char, index) => {
                 return (
